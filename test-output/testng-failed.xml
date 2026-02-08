@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ Sequintial test Suite (series)]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Filter by Category, by brand and search product(failed)">
+    <classes>
+      <class name="QA.QA_Automation.tests.testFiltersAndSearchProduct">
+        <methods>
+          <include name="testSearchFilters"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- QA.QA_Automation.tests.testFiltersAndSearchProduct -->
+    </classes>
+  </test> <!-- Filter by Category, by brand and search product(failed) -->
+  <test thread-count="5" name="End to End Full test(failed)">
+    <classes>
+      <class name="QA.QA_Automation.tests.testEndtoEnd">
+        <methods>
+          <include name="tearDown"/>
+          <include name="EndtoEnd"/>
+        </methods>
+      </class> <!-- QA.QA_Automation.tests.testEndtoEnd -->
+    </classes>
+  </test> <!-- End to End Full test(failed) -->
+</suite> <!-- Failed suite [ Sequintial test Suite (series)] -->

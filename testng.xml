@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" Sequintial test Suite (series)">
+
+ <test thread-count="5" name="invalid login">
+    <classes>  
+      <class name="QA.QA_Automation.tests.testInvalidLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Registration">
+    <classes>  
+      <class name="QA.QA_Automation.tests.testRegistration"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Empty cart">
+    <classes>    
+      <class name="QA.QA_Automation.tests.testEmptyCart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Login_ buy product from detailed view_page">
+    <classes>  
+      <class name="QA.QA_Automation.tests.testDetailedViewPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Filter by Category, by brand and search product">
+    <classes>  
+      <class name="QA.QA_Automation.tests.testFiltersAndSearchProduct"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test thread-count="5" name="Remove item from cart">
+    <classes>  
+      <class name="QA.QA_Automation.tests.testRemoveItemFromCart"/>
+    </classes>
+  </test> <!-- Test -->
+
+    <test thread-count="5" name="Contact us and view test cases">
+    <classes>  
+      <class name="QA.QA_Automation.tests.testContactUSandTestCasesPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+     <test thread-count="5" name="Subscription">
+    <classes>  
+      <class name="QA.QA_Automation.tests.testSubscriptionPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+     <test thread-count="5" name="End to End Full test">
+    <classes>  
+      <class name="QA.QA_Automation.tests.testEndtoEnd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+     <test thread-count="5" name="Delete account">
+    <classes>  
+      <class name="QA.QA_Automation.tests.testDeleteAccount"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
